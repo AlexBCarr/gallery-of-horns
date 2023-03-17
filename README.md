@@ -43,3 +43,15 @@ Start time: 3:10
 Finish time: 11:21
 
 Actual time needed to complete: 8hr 11mins
+
+
+
+Number and name of feature: #5 Forms and Filter
+
+Estimate of time needed to complete: 3hr 
+
+Start time: 3:18
+
+Finish time: 10:10
+
+Actual time needed to complete: 6hr 52mins

@@ -3,19 +3,16 @@ import HornedBeast from './HornedBeast';
 import './Main.css'
 
 class Main extends React.Component {
-  constructor(props){
-    super(props);
-    this.state = {
-    
-    }
-  }
   render(){
     return (
-      <main>
-      
-        {this.props.data.map((hornedBeast,id) => {
-          return <HornedBeast title={hornedBeast.title} image_url={hornedBeast.image_url} description={hornedBeast.description} key={id} handleOpenModal={this.props.handleOpenModal}/>
-        })}
+      <main>      
+        {this.props.data.map(hornedBeast => (
+      <HornedBeast 
+      title={hornedBeast.title} 
+      image_url={hornedBeast.image_url} 
+      description={hornedBeast.description} 
+      handleOpenModal={this.props.handleOpenModal}/>
+        ))}
       </main>
     )
   }
