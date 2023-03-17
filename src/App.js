@@ -5,7 +5,7 @@ import Main from './Main';
 import Footer from './Footer';
 import data from './data/data.json'
 import SelectedBeast from './SelectedBeast';
-import { Form, ListGroup } from 'react-bootstrap';
+// import { Form, ListGroup } from 'react-bootstrap';
 import HornedBeast from './HornedBeast';
 
 
